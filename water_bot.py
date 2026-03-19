@@ -26,7 +26,7 @@ for plant in plants:
 
 if messages:
     full_message = "\n".join(messages)
-    client.chat_postMessage(channel="#your-channel-name", text=full_message)
+    client.chat_postMessage(channel="#kusa", text=full_message)
 
 # 更新があれば保存
 if updated:
