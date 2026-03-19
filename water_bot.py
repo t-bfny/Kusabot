@@ -4,7 +4,8 @@ from datetime import datetime, date
 from slack_sdk import WebClient
 
 # 設定
-PLANTS_FILE = "plants.json"
+base_path = os.path.dirname(__file__)
+PLANTS_FILE = os.path.join(base_path, "plants.json")
 client = WebClient(token=os.environ["SLACK_BOT_TOKEN"])
 today = date.today()
 
