@@ -1,57 +1,57 @@
 [
-    {
-        "name": "シェフレラ",
-        "interval": 9,
-        "last_watered": "2026-03-12"
-    },
-    {
-        "name": "パキラ",
-        "interval": 4,
-        "last_watered": "2026-03-17"
-    },
-    {
-        "name": "スペアミント",
-        "interval": 2,
-        "last_watered": "2026-03-19"
-    },
-    {
-        "name": "モヒートミント",
-        "interval": 1.5,
-        "last_watered": "2026-03-19"
-    },
-    {
-        "name": "オレンジミント",
-        "interval": 1.5,
-        "last_watered": "2026-03-18"
-    },
-    {
-        "name": "アジアンタム",
-        "interval": 1,
-        "last_watered": "2026-03-19"
-    },
-    {
-        "name": "ミリオンバンブー",
-        "interval": 3,
-        "last_watered": "2026-03-18"
-    },
-    {
-        "name": "ノースポール",
-        "interval": 2,
-        "last_watered": "2026-03-16"
-    },
-    {
-        "name": "カモミール",
-        "interval": 2,
-        "last_watered": "2026-03-18"
-    },
-    {
-        "name": "シュガーパイン",
-        "interval": 2,
-        "last_watered": "2026-03-19"
-    },
-    {
-        "name": "クワズイモ",
-        "interval": 5,
-        "last_watered": "2026-03-15"
-    }
+  {
+    "name": "シェフレラ",
+    "interval": 9,
+    "last_watered": "2026-03-12"
+  },
+  {
+    "name": "パキラ",
+    "interval": 4,
+    "last_watered": "2026-03-17"
+  },
+  {
+    "name": "スペアミント",
+    "interval": 2,
+    "last_watered": "2026-03-19"
+  },
+  {
+    "name": "モヒートミント",
+    "interval": 1.5,
+    "last_watered": "2026-03-19"
+  },
+  {
+    "name": "オレンジミント",
+    "interval": 1.5,
+    "last_watered": "2026-03-18"
+  },
+  {
+    "name": "アジアンタム",
+    "interval": 1,
+    "last_watered": "2026-03-19"
+  },
+  {
+    "name": "ミリオンバンブー",
+    "interval": 3,
+    "last_watered": "2026-03-18"
+  },
+  {
+    "name": "ノースポール",
+    "interval": 2,
+    "last_watered": "2026-03-19"
+  },
+  {
+    "name": "カモミール",
+    "interval": 2,
+    "last_watered": "2026-03-18"
+  },
+  {
+    "name": "シュガーパイン",
+    "interval": 2,
+    "last_watered": "2026-03-19"
+  },
+  {
+    "name": "クワズイモ",
+    "interval": 5,
+    "last_watered": "2026-03-15"
+  }
 ]
