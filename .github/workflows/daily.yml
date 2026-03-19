@@ -1,0 +1,32 @@
+name: Daily Watering Check
+
+on:
+    schedule:
+        - cron: "0 0 * * *" # 日本時間 9:00 (UTC 0:00)
+    workflow_dispatch: # 手動実行用ボタン
+
+jobs:
+    check-and-notify:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.9"
+
+            - name: Install dependencies
+              run: pip install slack_sdk
+
+            - name: Run script
+              env:
+                  SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+              run: python water_bot.py
+
+            - name: Commit changes
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add plants.json
+                  git diff --quiet && git diff --staged --quiet || (git commit -m "Update watering log" && git push)
