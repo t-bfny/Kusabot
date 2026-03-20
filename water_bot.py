@@ -24,11 +24,16 @@ for plant in plants:
         plant["last_watered"] = str(today)
         updated = True
 
+# 更新があれば保存
+
 if messages:
     full_message = "\n".join(messages)
     client.chat_postMessage(channel="kusa", text=full_message)
+    print("水やりの通知を送信しました。")
+else:
+    print("今日は水やりの対象となる植物はありませんでした。")
 
-# 更新があれば保存
 if updated:
     with open(PLANTS_FILE, "w", encoding="utf-8") as f:
         json.dump(plants, f, ensure_ascii=False, indent=2)
+    print("植物の水やり情報を更新しました。")
