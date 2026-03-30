@@ -2,7 +2,7 @@
   {
     "name": "シェフレラ",
     "interval": 9,
-    "last_watered": "2026-03-21"
+    "last_watered": "2026-03-30"
   },
   {
     "name": "パキラ",
@@ -22,17 +22,17 @@
   {
     "name": "オレンジミント",
     "interval": 1.5,
-    "last_watered": "2026-03-28"
+    "last_watered": "2026-03-30"
   },
   {
     "name": "アジアンタム",
     "interval": 1,
-    "last_watered": "2026-03-29"
+    "last_watered": "2026-03-30"
   },
   {
     "name": "ミリオンバンブー",
     "interval": 3,
-    "last_watered": "2026-03-27"
+    "last_watered": "2026-03-30"
   },
   {
     "name": "ノースポール",
@@ -42,7 +42,7 @@
   {
     "name": "カモミール",
     "interval": 2,
-    "last_watered": "2026-03-28"
+    "last_watered": "2026-03-30"
   },
   {
     "name": "シュガーパイン",
@@ -52,6 +52,6 @@
   {
     "name": "クワズイモ",
     "interval": 5,
-    "last_watered": "2026-03-25"
+    "last_watered": "2026-03-30"
   }
 ]
