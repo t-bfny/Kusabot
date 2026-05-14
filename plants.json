@@ -2,7 +2,7 @@
   {
     "name": "シェフレラ",
     "interval": 9,
-    "last_watered": "2026-05-05"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "パキラ",
@@ -12,12 +12,12 @@
   {
     "name": "スペアミント",
     "interval": 2,
-    "last_watered": "2026-05-12"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "モヒートミント",
     "interval": 1.5,
-    "last_watered": "2026-05-12"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "オレンジミント",
@@ -27,12 +27,12 @@
   {
     "name": "アジアンタム",
     "interval": 1,
-    "last_watered": "2026-05-13"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "ミリオンバンブー",
     "interval": 3,
-    "last_watered": "2026-05-11"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "カモミール",
@@ -42,11 +42,11 @@
   {
     "name": "シュガーパイン",
     "interval": 2,
-    "last_watered": "2026-05-12"
+    "last_watered": "2026-05-14"
   },
   {
     "name": "クワズイモ",
     "interval": 5,
-    "last_watered": "2026-05-09"
+    "last_watered": "2026-05-14"
   }
 ]
