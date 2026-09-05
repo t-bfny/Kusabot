@@ -7,17 +7,17 @@
   {
     "name": "パキラ",
     "interval": 4,
-    "last_watered": "2026-09-01"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "スペアミント",
     "interval": 2,
-    "last_watered": "2026-09-03"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "モヒートミント",
     "interval": 1.5,
-    "last_watered": "2026-09-03"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "オレンジミント",
@@ -27,12 +27,12 @@
   {
     "name": "アジアンタム",
     "interval": 1,
-    "last_watered": "2026-09-04"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "ミリオンバンブー",
     "interval": 3,
-    "last_watered": "2026-09-02"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "カモミール",
@@ -42,7 +42,7 @@
   {
     "name": "シュガーパイン",
     "interval": 2,
-    "last_watered": "2026-09-03"
+    "last_watered": "2026-09-05"
   },
   {
     "name": "クワズイモ",
