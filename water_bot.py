@@ -20,7 +20,7 @@ for plant in plants:
     days_passed = (today - last_date).days
     
     if days_passed >= plant["interval"]:
-        messages.append(f"🌿 **{plant['name']}** に水をあげる時間です！ (前回から{days_passed}日経過)")
+        messages.append(f"🌿 *{plant['name']}* に水をあげる時間です！ (前回から{days_passed}日経過)")
         plant["last_watered"] = str(today)
         updated = True
 
