@@ -33,5 +33,10 @@
     "name": "クワズイモ",
     "interval": 5,
     "last_watered": "2026-09-26"
+  },
+  {
+    "name": "アロマティカス",
+    "interval": 2,
+    "last_watered": "2026-09-26"
   }
 ]
