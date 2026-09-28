@@ -13,25 +13,31 @@ with open(PLANTS_FILE, "r", encoding="utf-8") as f:
     plants = json.load(f)
 
 updated = False
-messages = []
+due_messages = []
+status_lines = []
 
 for plant in plants:
     last_date = datetime.strptime(plant["last_watered"], "%Y-%m-%d").date()
     days_passed = (today - last_date).days
-    
+
     if days_passed >= plant["interval"]:
-        messages.append(f"🌿 *{plant['name']}* に水をあげる時間です！ (前回から{days_passed}日経過)")
+        due_messages.append(f"🌿 *{plant['name']}* に水をあげる時間です！ (前回から{days_passed}日経過)")
         plant["last_watered"] = str(today)
         updated = True
+        days_passed = 0
 
-# 更新があれば保存
+    status_lines.append(f"• {plant['name']}: {days_passed}日経過 / {plant['interval']}日間隔")
 
-if messages:
-    full_message = "\n".join(messages)
-    client.chat_postMessage(channel="kusa", text=full_message)
-    print("水やりの通知を送信しました。")
+sections = []
+if due_messages:
+    sections.append("\n".join(due_messages))
 else:
-    print("今日は水やりの対象となる植物はありませんでした。")
+    sections.append("💧 本日水やりが必要な植物はありません。")
+sections.append("*🌱 全植物の状況*\n" + "\n".join(status_lines))
+
+full_message = "\n\n".join(sections)
+client.chat_postMessage(channel="kusa", text=full_message)
+print("通知を送信しました。")
 
 if updated:
     with open(PLANTS_FILE, "w", encoding="utf-8") as f:
