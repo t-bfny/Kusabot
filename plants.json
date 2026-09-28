@@ -38,5 +38,15 @@
     "name": "アロマティカス",
     "interval": 2,
     "last_watered": "2026-09-28"
+  },
+  {
+    "name": "ネギ",
+    "interval": 3,
+    "last_watered": "2026-09-28"
+  },
+  {
+    "name": "タイム",
+    "interval": 2,
+    "last_watered": "2026-09-28"
   }
 ]
