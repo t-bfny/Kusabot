@@ -22,12 +22,12 @@
   {
     "name": "アジアンタム",
     "interval": 1,
-    "last_watered": "2026-10-01"
+    "last_watered": "2026-10-02"
   },
   {
     "name": "ミリオンバンブー",
     "interval": 3,
-    "last_watered": "2026-09-29"
+    "last_watered": "2026-10-02"
   },
   {
     "name": "クワズイモ",
@@ -37,7 +37,7 @@
   {
     "name": "アロマティカス",
     "interval": 2,
-    "last_watered": "2026-09-30"
+    "last_watered": "2026-10-02"
   },
   {
     "name": "ネギ",
@@ -47,6 +47,6 @@
   {
     "name": "タイム",
     "interval": 2,
-    "last_watered": "2026-09-30"
+    "last_watered": "2026-10-02"
   }
 ]
