@@ -1,9 +1,9 @@
 name: Daily Watering Check
 
 on:
-    schedule:
-        - cron: "35 22 * * *" # 日本時間 7:35 (UTC 22:35, 毎時0分の混雑を避けて遅延を軽減)
-    workflow_dispatch: # 手動実行用ボタン
+    # GitHub Actionsのscheduleトリガーは負荷次第で数時間遅延するため使用しない。
+    # 外部cronサービス(例: cron-job.org)から毎朝7:30 JSTにworkflow_dispatch APIを呼び出す運用にする。
+    workflow_dispatch: # 手動実行用ボタン・外部cronからのAPI起動用
 
 jobs:
     check-and-notify:
