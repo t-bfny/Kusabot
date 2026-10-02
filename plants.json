@@ -41,11 +41,16 @@
   },
   {
     "name": "ネギ",
-    "interval": 3,
+    "interval": 1,
     "last_watered": "2026-10-01"
   },
   {
     "name": "タイム",
+    "interval": 2,
+    "last_watered": "2026-10-02"
+  },
+  {
+    "name": "ネペンテス",
     "interval": 2,
     "last_watered": "2026-10-02"
   }
