@@ -48,5 +48,10 @@
     "name": "ネペンテス",
     "interval": 2,
     "last_watered": "2026-10-10"
+  },
+  {
+    "name": "ガジュマル",
+    "interval": 7,
+    "last_watered": "2026-10-12"
   }
 ]
